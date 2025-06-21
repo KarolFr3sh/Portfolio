@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" type="image/webp" href="https://cdn-icons-png.flaticon.com/512/8193/8193209.png">
+  <title>¿Qué es React? - Karol Rincón</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explicación de React por Karol Rincón: qué es, para qué sirve y cómo funciona en el desarrollo web moderno.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Contenedor para partículas -->
+  <div id="particles-js"></div>
+  <!-- Navegación -->
+  <header>
+    <nav class="main-nav">
+      <div class="logo">
+        <a href="index.html">Karol Rincón</a>
+      </div>
+          <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="trayectoria.html">Trayectoria</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+
+    <section class="trayectoria-section">
+      <h1 class="section-title">¿Qué es React?</h1>
+      <p class="section-subtitle">La biblioteca más popular para construir interfaces web modernas</p>
+
+      <div class="trayectoria-bloque">
+        <h2>Definición</h2>
+        <p>
+          React es una biblioteca de JavaScript creada por Meta (Facebook) que permite construir interfaces de usuario de forma eficiente, reutilizable y basada en componentes. Su enfoque declarativo facilita el desarrollo de interfaces dinámicas y reactivas.
+        </p>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>¿Para qué se usa?</h2>
+        <p>
+          React se utiliza principalmente para construir interfaces de usuario (UI) en aplicaciones web, móviles y de escritorio. Es la base de muchos proyectos modernos, desde dashboards hasta redes sociales completas.
+        </p>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>Características clave</h2>
+        <ul class="workflow-list">
+          <li>Basado en componentes reutilizables que representan piezas de UI.</li>
+          <li>Actualización eficiente del DOM gracias al Virtual DOM.</li>
+          <li>Compatible con frameworks y herramientas como Next.js, Vite y Redux.</li>
+          <li>Gran comunidad, ecosistema maduro y documentación clara.</li>
+          <li>Utilizado por empresas como Facebook, Instagram, Netflix y más.</li>
+        </ul>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>Ejemplo básico</h2>
+        <pre style="background-color: #1a2235; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; color: #ccc;">
+// Componente básico en React
+import React from 'react';
+
+function Saludo() {
+  return &lt;h1&gt;¡Hola, mundo!&lt;/h1&gt;;
+}
+
+export default Saludo;
+        </pre>
+      </div>
+
+      <div class="cta-area">
+        <h2>¿Quieres ver cómo utilizo React en mis proyectos?</h2>
+        <a href="proyectos.html" class="cta-button">Explorar proyectos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Karol Rincón. Todos los derechos reservados.</p>
+      <div class="social-icons">
+        <a href="https://github.com/KarolFr3sh" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:karolfr3sh@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-whatsapp-link">
+      <a href="https://wa.me/573057759017?text=Hola%20Karol%2C%20vi%20tu%20portafolio%20y%20me%20interesa%20tu%20trabajo"
+         target="_blank">
+        <i class="fab fa-whatsapp"></i> Escríbeme por WhatsApp
+      </a>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</body>
+</html>

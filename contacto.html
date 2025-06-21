@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="https://cdn-icons-png.flaticon.com/512/8193/8193209.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Karol Rincón</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="fade-in">
+      <!-- Contenedor para partículas -->
+  <div id="particles-js"></div>
+  <!-- Navegación -->
+  <nav class="main-nav">
+    <div class="logo">
+      <a href="index.html" class="btn-link">Karol Rincón</a>
+    </div>
+        <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    <div class="menu">
+      <a href="index.html" class="btn-link">Inicio</a>
+      <a href="trayectoria.html" class="btn-link">Trayectoria</a>
+      <a href="proyectos.html" class="btn-link">Proyectos</a>
+      <a href="contacto.html" class="btn-link active">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- Sección de contacto -->
+  <section class="contact-section fade-in">
+    <h1 class="section-title">Hablemos</h1>
+    <p class="section-subtitle">¿Tienes una idea, proyecto o duda? Escríbeme y lo resolvemos juntos.</p>
+
+    <div class="contact-form-container">
+      <form action="https://formspree.io/f/xyzjdzyw" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required />
+        <textarea name="message" rows="5" placeholder="Tu mensaje..." required></textarea>
+        <button type="submit" class="cta-button">Enviar mensaje</button>
+
+        <!-- Redirección personalizada -->
+        <input type="hidden" name="_next" value="gracias.html" />
+      </form>
+
+      <div class="contact-info">
+        <h3>También puedes escribirme directamente:</h3>
+        <p><i class="fa-solid fa-envelope"></i> karolfr3sh@gmail.com</p>
+        <p><i class="fa-brands fa-whatsapp"></i> +57 305 775 9017</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/573057759017?text=Hola%20Karol%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20tus%20servicios" 
+     class="whatsapp-float" 
+     target="_blank" 
+     title="Escríbeme por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</body>
+</html>

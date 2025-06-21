@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" type="image/webp" href="https://cdn-icons-png.flaticon.com/512/8193/8193209.png">
+  <title>¿Qué es Git? - Karol Rincón</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explicación de Git por Karol Rincón: qué es, para qué sirve y cómo se usa en desarrollo web.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Contenedor para partículas -->
+  <div id="particles-js"></div>
+  <!-- Navegación -->
+  <header>
+    <nav class="main-nav">
+      <div class="logo">
+        <a href="index.html">Karol Rincón</a>
+      </div>
+          <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="trayectoria.html">Trayectoria</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+
+    <section class="trayectoria-section">
+      <h1 class="section-title">¿Qué es Git?</h1>
+      <p class="section-subtitle">Tu mejor aliado para controlar versiones y trabajar en equipo</p>
+
+      <div class="trayectoria-bloque">
+        <h2>Definición</h2>
+        <p>
+          Git es un sistema de control de versiones distribuido creado por Linus Torvalds (creador de Linux). Se utiliza para gestionar y registrar los cambios en el código fuente a lo largo del tiempo, permitiendo trabajar en equipo de manera ordenada.
+        </p>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>¿Para qué sirve?</h2>
+        <p>
+          Git permite llevar un historial completo del código, volver a versiones anteriores, trabajar en diferentes ramas (features) y colaborar con otros desarrolladores sin sobreescribir el trabajo de nadie.
+        </p>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>Ventajas clave</h2>
+        <ul class="workflow-list">
+          <li>Trabaja de forma local y remota (ideal para proyectos personales y colaborativos).</li>
+          <li>Permite ramificar y fusionar código fácilmente.</li>
+          <li>Es rápido, confiable y ampliamente utilizado en la industria.</li>
+          <li>Se integra perfectamente con plataformas como GitHub, GitLab o Bitbucket.</li>
+        </ul>
+      </div>
+
+      <div class="trayectoria-bloque">
+        <h2>Comandos básicos</h2>
+        <pre style="background-color: #1a2235; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; color: #ccc;">
+# Inicializar un repositorio
+git init
+
+# Ver el estado del repositorio
+git status
+
+# Añadir archivos al área de staging
+git add .
+
+# Confirmar los cambios (commit)
+git commit -m "Mensaje"
+
+# Conectar con un repositorio remoto
+git remote add origin URL
+
+# Subir cambios al repositorio
+git push -u origin main
+        </pre>
+      </div>
+
+      <div class="cta-area">
+        <h2>¿Quieres ver cómo uso Git en mis proyectos?</h2>
+        <a href="proyectos.html" class="cta-button">Ver proyectos en Git</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Karol Rincón. Todos los derechos reservados.</p>
+      <div class="social-icons">
+        <a href="https://github.com/KarolFr3sh" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:karolfr3sh@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-whatsapp-link">
+      <a href="https://wa.me/573057759017?text=Hola%20Karol%2C%20vi%20tu%20portafolio%20y%20me%20interesa%20tu%20trabajo"
+         target="_blank">
+        <i class="fab fa-whatsapp"></i> Escríbeme por WhatsApp
+      </a>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</body>
+</html>
